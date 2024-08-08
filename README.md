@@ -23,7 +23,7 @@ Because of this, it only targets the JVM, although a KMP rewrite (also targeting
 This JVM-centricity is also the reason why the function signatures are rather JVM-esque (read: exceptions are thrown on error,
 as done by pretty much every verification function of classes form the `java.security` package).
 
-This library is an integral part of the more comprehensive [Attestation Service](https://github.com/a-sit-plus/warden), which also supports iOS clients and provides
+This library is an integral part of the more comprehensive [WARDEN](https://github.com/a-sit-plus/warden) server-side mobile client attestation library, which also supports iOS clients and provides
 more idiomatic kotlin interfaces.
 However, if you are only concerned about Android clients, this library provides all functionality needed without unnecessary bloat.
 
